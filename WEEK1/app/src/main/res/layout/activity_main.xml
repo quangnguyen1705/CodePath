@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF000000"
+    tools:context=".MainActivity">
+
+    <!-- Circular Image View  -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_width="4dp"
+        android:layout_gravity="center"
+        android:src="@drawable/new_profile_image"
+        app:civ_border_color="#FF000000"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#E0F7FA"
+        android:background="#FF5722"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/bio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_bio_text"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#E0F7FA"
+        android:padding="50dp"/>
+
+    <TextView
+        android:id="@+id/favorite_hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_hobbies"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#E0F7FA"
+        android:background="#FF5722"
+        android:textStyle="bold"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/bio_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_hobby_first_text"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#E0F7FA"
+        android:padding="4dp"
+        />
+    <TextView
+        android:id="@+id/bio_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_hobby_second_text"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#E0F7FA"
+        android:padding="4dp"
+        />
+    <TextView
+        android:id="@+id/bio_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_hobby_third_text"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#E0F7FA"
+        android:padding="4dp"
+        />
+</LinearLayout>

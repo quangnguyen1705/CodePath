@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hello Squirrel!</string>
+
+    <string name="first_name">DANG QUANG(FREDERICK)</string>
+    <string name="last_name">NGUYEN</string>
+
+    <string name="profile_bio_text">I am a software developer with a passion for learning new technologies and exploring the outdoors</string>
+
+    <string name="favorite_hobbies">FAVORITE HOBBIES:</string>
+    <string name="profile_hobby_first_text">Hiking</string>
+    <string name="profile_hobby_second_text">Coding</string>
+    <string name="profile_hobby_third_text">Watching Movie</string>
+    <string name="profile_image">Profile Image</string>
+</resources>
