@@ -17,8 +17,8 @@ class FavoriteNumber : AppCompatActivity() {
         Log.v("Challenge 5", "Run Favorite Number Activity")
         //val number: Int? = null
         val number: Int = 42
-        Log.v("Challenge 5", "$number")
         val rnd = Random()
         favoriteNumber.text = rnd.nextInt(number).toString()
+        Log.v("Challenge 5", rnd.nextInt(number).toString())
     }
 }
