@@ -5,6 +5,7 @@ import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.driuft.androidkotlindebugging.R
+import java.util.Random
 
 class FavoriteNumber : AppCompatActivity() {
 
@@ -17,6 +18,7 @@ class FavoriteNumber : AppCompatActivity() {
         //val number: Int? = null
         val number: Int = 42
         Log.v("Challenge 5", "$number")
-        favoriteNumber.text = "$number"
+        val rnd = Random()
+        favoriteNumber.text = rnd.nextInt(number).toString()
     }
 }
