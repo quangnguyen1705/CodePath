@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">petflix</string>
-    <string name="petflix_logo">Petflix logo</string>
-    <string name="welcome_to_petflix">Welcome to Petflix</string>
-    <string name="watch_your_favorite_pet_shows">Stream your favorite pet shows!</string>
-    <string name="no_humans_allowed">For pets only</string>
-</resources>
