@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DoggoLingo</string>
+    <string name="welcome_message">Welcome to DoggoLingo!</string>
+    <string name="subtitle_message">Learn the language of good dogs!</string>
+    <string name="progress_title">Today\'s Progress</string>
+
+    <string name="lessons_completed">Lessons Completed</string>
+    <string name="paw_points_earned">Paw Points Earned</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="practice_barks">Practice Barks</string>
+    <string name="doggy_stories">Doggy Stories</string>
+    <string name="streak_description">Current learning streak</string>
+    <string name="profile_description">Your profile</string>
+    <string name="dog_character_description">DoggoLingo mascot dog</string>
+    <string name="continue_tooltip">Continue your DoggoLingo journey</string>
+    <string name="practice_tooltip">Practice what you\'ve learned</string>
+    <string name="stories_tooltip">Read stories in dog language</string>
+</resources>
